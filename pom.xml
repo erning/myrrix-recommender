@@ -81,6 +81,10 @@
       <version>0.7</version>
       <exclusions>
         <exclusion>
+          <groupId>org.apache.mahout</groupId>
+          <artifactId>mahout-math</artifactId>
+        </exclusion>
+        <exclusion>
           <groupId>org.apache.hadoop</groupId>
           <artifactId>hadoop-core</artifactId>
         </exclusion>
